@@ -1,5 +1,3 @@
-package com.example.demorestapi;
-
 public class Greeting {
 
     private final long id;
