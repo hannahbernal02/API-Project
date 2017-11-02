@@ -1,4 +1,4 @@
-package com.example.demorestapi;
+package egr327project;
 
 import java.io.Serializable;
 

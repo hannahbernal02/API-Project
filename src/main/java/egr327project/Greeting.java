@@ -1,3 +1,4 @@
+package egr327project;
 public class Greeting {
 
     private final long id;
