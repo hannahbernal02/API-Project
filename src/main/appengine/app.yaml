@@ -2,4 +2,4 @@ runtime: java
 env: flexible
 threadsafe: true
 manual_scaling:
-    instanes: 1
+instances: 1
