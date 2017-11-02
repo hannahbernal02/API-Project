@@ -114,6 +114,8 @@ import java.util.List;
                 if (someVehicle.getId() == newVehicle.getId()) {
                     //if match, update current line w/ vehicle that was passed in
                     String jsonVehicle = mapper.writeValueAsString(newVehicle);
+                    /*have lines by list instead FileUtils
+                    * ...writeLines*/
                     String fileString = FileUtils.readFileToString(new File("./inventory.txt"), StandardCharsets.UTF_8.name());
                     String finalString = "";
                     if (it.hasNext()) {

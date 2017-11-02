@@ -1,4 +1,4 @@
-{"id":1,"makeModel":"abc","year":1111,"retailPrice":11111.0}
+{"id":1,"makeModel":"Updated Vehicle","year":99999,"retailPrice":123456.0}
 {"id":2,"makeModel":"xyz","year":1234,"retailPrice":12345.0}
 {"id":3,"makeModel":"Toyota","year":2000,"retailPrice":20000.0}
 {"id":4,"makeModel":"Toyota Sirius","year":2010,"retailPrice":29000.0}
