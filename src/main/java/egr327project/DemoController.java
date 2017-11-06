@@ -74,7 +74,6 @@ import java.util.List;
 
         /**PART 1**/
 
-        /**WORKS!**/
         @RequestMapping(value="/addVehicle", method=RequestMethod.POST)
         public Vehicle addVehicle(@RequestBody Vehicle newVehicle) throws IOException {
             ObjectMapper mapper = new ObjectMapper();
@@ -84,7 +83,6 @@ import java.util.List;
             return newVehicle;
         }
 
-        /**WORKS!**/
         @RequestMapping(value="/getVehicle/{id}", method=RequestMethod.GET)
         public Vehicle getVehicle(@PathVariable("id") int id) throws IOException {
             ObjectMapper mapper = new ObjectMapper();
@@ -145,7 +143,7 @@ import java.util.List;
                     if (it.hasNext()) {
                         finalString = fileString.replace(thisLine + "\r\n", "");
                     } else {
-                        finalString = fileString.replace(thisLine, "");
+                        finalString = fileString.replace("\r\n" + thisLine, "");
                     }
                     FileUtils.writeStringToFile(new File("./inventory.txt"), finalString, StandardCharsets.UTF_8.name());
                     return new ResponseEntity("Deleted", HttpStatus.OK);
@@ -162,7 +160,7 @@ import java.util.List;
             LineIterator it = FileUtils.lineIterator(new File("./inventory.txt"), StandardCharsets.UTF_8.name());
             while (latestVehiclesList.size() <= 10 && it.hasNext()) {
                 String check = it.next();
-                System.out.println(check);
+//                System.out.println(check);
                 Vehicle someVehicle = mapper.readValue(check, Vehicle.class);
                 latestVehiclesList.add(someVehicle);
             }
