@@ -1,0 +1,103 @@
+{"id":2,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":3,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":6,"makeModel":"d","year":1990,"retailPrice":44191.0}
+{"id":7,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":8,"makeModel":"h","year":2004,"retailPrice":15400.0}
+{"id":9,"makeModel":"h","year":1998,"retailPrice":21345.0}
+{"id":11,"makeModel":"k","year":1997,"retailPrice":34168.0}
+{"id":13,"makeModel":"v","year":1987,"retailPrice":16203.0}
+{"id":14,"makeModel":"w","year":2012,"retailPrice":29023.0}
+{"id":15,"makeModel":"x","year":1994,"retailPrice":42980.0}
+{"id":16,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":17,"makeModel":"j","year":2004,"retailPrice":39897.0}
+{"id":18,"makeModel":"o","year":2003,"retailPrice":37893.0}
+{"id":19,"makeModel":"w","year":1993,"retailPrice":43038.0}
+{"id":20,"makeModel":"h","year":2013,"retailPrice":36941.0}
+{"id":21,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":22,"makeModel":"t","year":2009,"retailPrice":37162.0}
+{"id":23,"makeModel":"c","year":2007,"retailPrice":19391.0}
+{"id":24,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":26,"makeModel":"u","year":2016,"retailPrice":36931.0}
+{"id":27,"makeModel":"a","year":2001,"retailPrice":26508.0}
+{"id":28,"makeModel":"q","year":2006,"retailPrice":28229.0}
+{"id":29,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":30,"makeModel":"w","year":1992,"retailPrice":34509.0}
+{"id":31,"makeModel":"y","year":2014,"retailPrice":41209.0}
+{"id":33,"makeModel":"d","year":2005,"retailPrice":41643.0}
+{"id":34,"makeModel":"v","year":2013,"retailPrice":24381.0}
+{"id":35,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":36,"makeModel":"m","year":1996,"retailPrice":41622.0}
+{"id":38,"makeModel":"a","year":1996,"retailPrice":42521.0}
+{"id":39,"makeModel":"n","year":2002,"retailPrice":41423.0}
+{"id":40,"makeModel":"d","year":2015,"retailPrice":35107.0}
+{"id":41,"makeModel":"y","year":1988,"retailPrice":19305.0}
+{"id":42,"makeModel":"s","year":2009,"retailPrice":35177.0}
+{"id":43,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":44,"makeModel":"s","year":2009,"retailPrice":24298.0}
+{"id":45,"makeModel":"k","year":1991,"retailPrice":33517.0}
+{"id":46,"makeModel":"u","year":1993,"retailPrice":17205.0}
+{"id":47,"makeModel":"y","year":2014,"retailPrice":37177.0}
+{"id":48,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":49,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":50,"makeModel":"h","year":2009,"retailPrice":28339.0}
+{"id":51,"makeModel":"r","year":2003,"retailPrice":42650.0}
+{"id":52,"makeModel":"m","year":2013,"retailPrice":16026.0}
+{"id":53,"makeModel":"t","year":1997,"retailPrice":34274.0}
+{"id":54,"makeModel":"i","year":2005,"retailPrice":27394.0}
+{"id":56,"makeModel":"i","year":2015,"retailPrice":26806.0}
+{"id":57,"makeModel":"p","year":2005,"retailPrice":24859.0}
+{"id":58,"makeModel":"w","year":1999,"retailPrice":26631.0}
+{"id":59,"makeModel":"n","year":2011,"retailPrice":20433.0}
+{"id":60,"makeModel":"q","year":1995,"retailPrice":44253.0}
+{"id":61,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":62,"makeModel":"p","year":2011,"retailPrice":40040.0}
+{"id":63,"makeModel":"l","year":2012,"retailPrice":41620.0}
+{"id":64,"makeModel":"UPDATED Vehicle","year":99999,"retailPrice":123456.0}
+{"id":65,"makeModel":"u","year":1989,"retailPrice":26540.0}
+{"id":66,"makeModel":"w","year":2005,"retailPrice":41222.0}
+{"id":67,"makeModel":"w","year":1992,"retailPrice":44111.0}
+{"id":68,"makeModel":"d","year":1991,"retailPrice":38490.0}
+{"id":70,"makeModel":"b","year":2009,"retailPrice":35515.0}
+{"id":71,"makeModel":"o","year":1993,"retailPrice":18909.0}
+{"id":72,"makeModel":"j","year":1992,"retailPrice":36182.0}
+{"id":73,"makeModel":"u","year":2001,"retailPrice":18490.0}
+{"id":75,"makeModel":"b","year":2000,"retailPrice":24855.0}
+{"id":76,"makeModel":"e","year":2011,"retailPrice":20652.0}
+{"id":77,"makeModel":"g","year":1999,"retailPrice":43964.0}
+{"id":78,"makeModel":"y","year":2012,"retailPrice":21996.0}
+{"id":79,"makeModel":"z","year":1986,"retailPrice":36961.0}
+{"id":80,"makeModel":"h","year":2011,"retailPrice":19872.0}
+{"id":81,"makeModel":"i","year":1987,"retailPrice":21839.0}
+{"id":82,"makeModel":"p","year":2012,"retailPrice":34720.0}
+{"id":83,"makeModel":"j","year":2007,"retailPrice":17832.0}
+{"id":84,"makeModel":"x","year":1989,"retailPrice":24314.0}
+{"id":85,"makeModel":"r","year":1993,"retailPrice":39627.0}
+{"id":86,"makeModel":"n","year":1993,"retailPrice":20495.0}
+{"id":87,"makeModel":"f","year":2003,"retailPrice":17343.0}
+{"id":88,"makeModel":"c","year":2010,"retailPrice":22270.0}
+{"id":89,"makeModel":"q","year":1999,"retailPrice":15336.0}
+{"id":90,"makeModel":"l","year":2016,"retailPrice":33115.0}
+{"id":91,"makeModel":"t","year":2009,"retailPrice":29904.0}
+{"id":92,"makeModel":"i","year":1988,"retailPrice":22335.0}
+{"id":93,"makeModel":"g","year":2011,"retailPrice":31017.0}
+{"id":94,"makeModel":"t","year":1999,"retailPrice":18208.0}
+{"id":95,"makeModel":"u","year":1986,"retailPrice":16047.0}
+{"id":96,"makeModel":"t","year":1993,"retailPrice":37563.0}
+{"id":97,"makeModel":"x","year":2001,"retailPrice":34693.0}
+{"id":98,"makeModel":"x","year":1990,"retailPrice":32338.0}
+{"id":99,"makeModel":"z","year":1987,"retailPrice":37091.0}
+{"id":100,"makeModel":"o","year":2007,"retailPrice":27133.0}
+{"id":101,"makeModel":"c","year":2010,"retailPrice":37793.0}
+{"id":102,"makeModel":"n","year":1998,"retailPrice":32927.0}
+{"id":103,"makeModel":"s","year":2011,"retailPrice":21579.0}
+{"id":104,"makeModel":"x","year":1994,"retailPrice":17054.0}
+{"id":105,"makeModel":"x","year":2003,"retailPrice":36941.0}
+{"id":106,"makeModel":"v","year":1989,"retailPrice":40842.0}
+{"id":107,"makeModel":"s","year":1993,"retailPrice":36290.0}
+{"id":108,"makeModel":"u","year":2000,"retailPrice":19308.0}
+{"id":109,"makeModel":"s","year":1990,"retailPrice":28324.0}
+{"id":110,"makeModel":"l","year":1991,"retailPrice":15961.0}
+{"id":111,"makeModel":"z","year":2007,"retailPrice":43292.0}
+{"id":112,"makeModel":"h","year":1998,"retailPrice":26635.0}
+{"id":2,"makeModel":"z","year":2014,"retailPrice":35203.0}
+{"id":3,"makeModel":"c","year":1997,"retailPrice":19162.0}

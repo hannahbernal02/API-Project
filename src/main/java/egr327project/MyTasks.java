@@ -43,16 +43,13 @@ public class MyTasks {
     /**Part 2 **/
 
     //post
-    @Scheduled (cron="*/3 * * * * *")
+    @Scheduled (cron="*/1 * * * * *")
     public void addVehicle() {
         String url = "http://localhost:8080/addVehicle";
         rand = new Random();
 //        //97-122
         String alphabet = "abcdefghijklmnopqrstuvwxyz";
         randModel = alphabet.charAt(rand.nextInt(alphabet.length())) + "";
-//        randModel = Integer.toString(rand.nextInt(26) + 97);
-//        rand.nextInt((max - min) + 1) + min
-//        randModel += "a";
         int randYear = rand.nextInt(31) + 1986;
         int randPrice = rand.nextInt(30001) + 15000;
         restTemplate.postForObject(url, new Vehicle(id++, randModel, randYear, randPrice), Vehicle.class);
@@ -66,10 +63,13 @@ public class MyTasks {
         rand = new Random();
         //1-100
         int randId = rand.nextInt(100) + 1;
+        //if try to delete id that does not exist
+        while (randId > id || restTemplate.getForObject("http://localhost:8080/getVehicle/" + randId, Vehicle.class) == null) {
+            randId = rand.nextInt(100) + 1;
+        }
         String url = "http://localhost:8080/deleteVehicle/" + randId;
         restTemplate.delete(url);
     }
-
 
     //put
     @Scheduled (cron="*/5 * * * * *")
@@ -77,6 +77,10 @@ public class MyTasks {
         String url = "http://localhost:8080/updateVehicle";
         rand = new Random();
         int randId = rand.nextInt(100) + 1; //1-100
+        //can't check if id is still in inventory.txt
+        while (randId > id || restTemplate.getForObject("http://localhost:8080/getVehicle/" + randId, Vehicle.class) == null) {
+            randId = rand.nextInt(100) + 1;
+        }
         restTemplate.put(url, new Vehicle(randId, "UPDATED Vehicle", 99999, 123456), Vehicle.class);
         //remember same id
         Vehicle updatedVehicle = restTemplate.getForObject("http://localhost:8080/getVehicle/" + randId, Vehicle.class);

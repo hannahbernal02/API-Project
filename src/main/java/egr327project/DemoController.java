@@ -150,7 +150,6 @@ import java.util.List;
                 }
             }
             return new ResponseEntity("Not found", HttpStatus.BAD_REQUEST);
-
         }
 
         @RequestMapping(value="/getLatestVehicles", method=RequestMethod.GET)
@@ -160,7 +159,6 @@ import java.util.List;
             LineIterator it = FileUtils.lineIterator(new File("./inventory.txt"), StandardCharsets.UTF_8.name());
             while (latestVehiclesList.size() <= 10 && it.hasNext()) {
                 String check = it.next();
-//                System.out.println(check);
                 Vehicle someVehicle = mapper.readValue(check, Vehicle.class);
                 latestVehiclesList.add(someVehicle);
             }
